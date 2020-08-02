@@ -4,7 +4,6 @@ int main(void) {
 	int num;
 	scanf("%d", &num);
 	char str[81];
-	int c = 0, l = 0;
 	for (int i = 0; i < num; i++) {
 		scanf("%s", str);
 		int sum = 0, count = 0;
